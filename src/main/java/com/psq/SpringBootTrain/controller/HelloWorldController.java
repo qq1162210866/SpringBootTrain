@@ -1,6 +1,10 @@
 package com.psq.SpringBootTrain.controller;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,25 +18,17 @@ import org.springframework.web.bind.annotation.RestController;
  * @UpdateDate: 2018/11/12 7:56 PM
  */
 @RestController
+@RequestMapping(value = "/helloWorld")
+@Api(description = "HelloWorld相关接口")
 public class HelloWorldController {
 
-    public static void main(String[] args) {
-        /**
-         *
-         * 功能描述:
-         *
-         * @param: [args]
-         * @return: void
-         * @auther: yanyu
-         * @date: 2018/11/11 20:28
-         */
-    }
-
-    @RequestMapping(value = "/hello")
+    @GetMapping(value = "/hello")
+    @ResponseBody
+    @ApiOperation(value = "测试接口", notes = "第一次建立项目时的Hello World")
     public String HelloWorld() {
         /**
          *
-         * 功能描述:
+         * 功能描述: Hello World接口
          *
          * @param: []
          * @return: java.lang.String
