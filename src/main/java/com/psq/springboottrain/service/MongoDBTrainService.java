@@ -1,6 +1,6 @@
-package com.psq.SpringBootTrain.service;
+package com.psq.springboottrain.service;
 
-import com.psq.SpringBootTrain.pojo.UserDO;
+import com.psq.springboottrain.pojo.UserDO;
 
 /**
  * 功能描述: 关于MongoDB的练习服务
@@ -28,7 +28,7 @@ public interface MongoDBTrainService {
      * 功能描述: 根据用户名来查询mongo中的数据
      *
      * @param: [name]
-     * @return: com.psq.SpringBootTrain.pojo.UserDO
+     * @return: UserDO
      * @author: pengshiquan
      * @date: 2018/12/1 10:11 AM
      */

@@ -1,4 +1,4 @@
-package com.psq.SpringBootTrain.pojo;
+package com.psq.springboottrain.pojo;
 
 /**
  * 功能描述:MongoDB数据库中的对象

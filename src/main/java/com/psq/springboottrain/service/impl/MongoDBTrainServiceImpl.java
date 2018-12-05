@@ -1,7 +1,7 @@
-package com.psq.SpringBootTrain.service.impl;
+package com.psq.springboottrain.service.impl;
 
-import com.psq.SpringBootTrain.pojo.UserDO;
-import com.psq.SpringBootTrain.service.MongoDBTrainService;
+import com.psq.springboottrain.pojo.UserDO;
+import com.psq.springboottrain.service.MongoDBTrainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -47,7 +47,7 @@ public class MongoDBTrainServiceImpl implements MongoDBTrainService {
      * 功能描述:根据用户名来查询mongo中的数据
      *
      * @param: [name]
-     * @return: com.psq.SpringBootTrain.pojo.UserDO 成功返回对象，失败返回空
+     * @return: UserDO 成功返回对象，失败返回空
      * @author: pengshiquan
      * @date: 2018/12/1 10:12 AM
      */

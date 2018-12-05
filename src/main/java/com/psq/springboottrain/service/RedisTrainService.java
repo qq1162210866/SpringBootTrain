@@ -1,4 +1,4 @@
-package com.psq.SpringBootTrain.service;
+package com.psq.springboottrain.service;
 
 /**
  * 功能描述: RedisTrain接口

@@ -1,10 +1,8 @@
-package com.psq.SpringBootTrain;
+package com.psq.springboottrain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.web.bind.annotation.RestController;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 /**
  *
  * 功能描述: 项目启动类

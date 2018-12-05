@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Spring-Boot-Train</name>
+    <name>spring-boot-train</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

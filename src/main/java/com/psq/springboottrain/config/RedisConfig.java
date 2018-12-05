@@ -1,4 +1,4 @@
-package com.psq.SpringBootTrain.config;
+package com.psq.springboottrain.config;
 
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;

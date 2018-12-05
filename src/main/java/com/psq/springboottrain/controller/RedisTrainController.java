@@ -1,4 +1,4 @@
-package com.psq.SpringBootTrain.controller;
+package com.psq.springboottrain.controller;
 
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.RequestMapping;

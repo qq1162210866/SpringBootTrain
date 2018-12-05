@@ -1,6 +1,6 @@
-package com.psq.SpringBootTrain.service.impl;
+package com.psq.springboottrain.service.impl;
 
-import com.psq.SpringBootTrain.service.RedisTrainService;
+import com.psq.springboottrain.service.RedisTrainService;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;

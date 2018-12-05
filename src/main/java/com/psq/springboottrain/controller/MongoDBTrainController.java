@@ -1,8 +1,8 @@
-package com.psq.SpringBootTrain.controller;
+package com.psq.springboottrain.controller;
 
-import com.psq.SpringBootTrain.base.BaseController;
-import com.psq.SpringBootTrain.pojo.UserDO;
-import com.psq.SpringBootTrain.service.MongoDBTrainService;
+import com.psq.springboottrain.base.BaseController;
+import com.psq.springboottrain.pojo.UserDO;
+import com.psq.springboottrain.service.MongoDBTrainService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
