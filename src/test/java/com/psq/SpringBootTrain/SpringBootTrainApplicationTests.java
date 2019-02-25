@@ -11,6 +11,8 @@ public class SpringBootTrainApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.err.println("哈哈，这是一个测试类");
+
 	}
 
 }
