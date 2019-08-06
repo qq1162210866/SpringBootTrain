@@ -11,35 +11,33 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 /**
- * 功能描述:MongoDB的一些小练习
+ * MongoDBTrainController.java
+ * Description:
  *
- * @Package: com.psq.SpringBootTrain.controller
- * @ClassName: MongoDBTrainController
- * @auther: pengshiquan
- * @CreateDate: 2018/11/22 2:37 PM
- * @UpdateUser: pengshiquan
- * @UpdateDate: 2018/11/22 2:37 PM
+ * @author Peng Shiquan
+ * @date 2019-03-15
  */
 @RestController
 @RequestMapping(value = "mongoDBTrain")
 @Api(description = "MongoDB练习接口")
 public class MongoDBTrainController extends BaseController {
 
+
     @Autowired
     private MongoDBTrainService mongoDBTrainService;
 
     /**
-     * 功能描述:
+     * Method: saveUserToMongo
+     * Description:
      *
-     * @param: [userDO]
-     * @return: java.util.Map
-     * @author: pengshiquan
-     * @date: 2018/12/1 11:24 AM
+     * @param userDO
+     * @return java.util.Map<java.lang.String, java.lang.Object>
      */
     @PostMapping(value = "/saveUser")
     @ResponseBody
     @ApiOperation(value = "保存对象", notes = "将user对象保存到mongo数据库中")
     public Map<String, Object> saveUserToMongo(@RequestBody UserDO userDO) {
+
         Integer resultInt = mongoDBTrainService.saveUserToMongo(userDO);
         if (resultInt == 1) {
             return responseResult(RESPONSE_SUCCESS, "查询成功", null);

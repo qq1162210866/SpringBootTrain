@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "redisTrain")
-@Api(description = "Redis练习接口")
+@Api(value = "Redis练习接口")
 public class RedisTrainController {
     /**
      * 功能描述: 存入到redis数据库中
@@ -27,8 +27,6 @@ public class RedisTrainController {
      * @date: 2018/11/14 7:26 PM
      */
     public String redisSetMethod(String key, String value) {
-
         return null;
-
     }
 }
